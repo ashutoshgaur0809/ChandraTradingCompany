@@ -1,0 +1,76 @@
+
+.container {
+  position: relative;
+  width: 50%;
+  
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-left:275px;
+  opacity: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #cfe2ff;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+    
+    text-shadow: 2px 2px 5px #0e89fc;
+  color: #050505;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.button1 {
+    cursor: pointer;
+  float: left;
+    width: 375px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button1:hover {
+    background-color: #0e89fc;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+  .button2 {
+    cursor: pointer;
+     float: right;
+    width: 375px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+    background-color: #0e89fc;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
